@@ -17,6 +17,13 @@
       <div class="alert"><%= flash[:alert] %></div>
     <% end %>
 
+    <%= link_to 'Log out', logout_path %>
+
+    <p>
+      <%= link_to 'Posts', admin_posts_path %>
+      <%= link_to 'Moderator', admin_moderators_path %>
+    </p>
+
     <%= yield %>
   </body>
 </html>

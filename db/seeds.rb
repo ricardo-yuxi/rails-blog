@@ -7,6 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 moderator = Moderator.create(
   fullname: "Ricardo Rojas",
-  username: "reddrum7",
+  username: "reddrum7@gmail.com",
   password: "example"
 )
